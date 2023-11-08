@@ -58,16 +58,40 @@
 		F610B6CB2AF92C9F009414FC /* Basic - To Do List */ = {
 			isa = PBXGroup;
 			children = (
+				F610B6E32AF92CAD009414FC /* Views */,
+				F610B6E52AF92CC4009414FC /* Controllers */,
+				F610B6E42AF92CB6009414FC /* Supporting Files */,
+			);
+			path = "Basic - To Do List";
+			sourceTree = "<group>";
+		};
+		F610B6E32AF92CAD009414FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F610B6D22AF92C9F009414FC /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F610B6E42AF92CB6009414FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				F610B6CC2AF92C9F009414FC /* AppDelegate.swift */,
 				F610B6CE2AF92C9F009414FC /* SceneDelegate.swift */,
-				F610B6D02AF92C9F009414FC /* ViewController.swift */,
-				F610B6D22AF92C9F009414FC /* Main.storyboard */,
 				F610B6D82AF92CA2009414FC /* Assets.xcassets */,
 				F610B6DA2AF92CA2009414FC /* LaunchScreen.storyboard */,
 				F610B6DD2AF92CA2009414FC /* Info.plist */,
 				F610B6D52AF92C9F009414FC /* Basic___To_Do_List.xcdatamodeld */,
 			);
-			path = "Basic - To Do List";
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F610B6E52AF92CC4009414FC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F610B6D02AF92C9F009414FC /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,7 +317,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7TWP4BD49D;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Basic - To Do List/Info.plist";
+				INFOPLIST_FILE = "Basic - To Do List/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -321,7 +345,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7TWP4BD49D;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Basic - To Do List/Info.plist";
+				INFOPLIST_FILE = "Basic - To Do List/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
